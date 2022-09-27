@@ -209,7 +209,6 @@ If you add an existing object to a collection association, Active Record will
 conveniently take care of setting the foreign key for you:
 
 ```ruby
-author = Author.find_by(name: "Lasandra Gulgowski")
 author.posts
 #=> [#<Post @title="Web Development for Dogs">]
 
